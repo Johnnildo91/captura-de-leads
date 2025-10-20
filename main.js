@@ -27,7 +27,6 @@ async function submitLead(nome, telefone) {
       headers: {
         'Content-Type': 'application/json',
         'apikey': SUPABASE_API_KEY,
-        'Authorization': `Bearer ${SUPABASE_API_KEY}`,
         'Prefer': 'return=minimal'
       },
       body: JSON.stringify({
