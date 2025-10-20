@@ -1,7 +1,7 @@
-import './style.css'
 
-const SUPABASE_URL = 'https://mtrlklzbeqrksfjaoyrf.supabase.co/rest/v1/Leads';
-const SUPABASE_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im10cmxrbHpiZXFya3NmamFveXJmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkwNDEwMjQsImV4cCI6MjA2NDYxNzAyNH0.vuB9immXQgj6kRFxI24Jvky7cS1rMlg41lNUiwJlFdw';
+
+const SUPABASE_URL = 'https://twvdyjgafeouxhjyuykr.supabase.co/rest/v1/Leads';
+const SUPABASE_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR3dmR5amdhZmVvdXhoanl1eWtyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk4NTkyODEsImV4cCI6MjA3NTQzNTI4MX0.HKScLfMoi6jcQlpaHGV0x_cg0QI-t90iCxZ8zgBu9R0';
 
 const form = document.getElementById('leadForm');
 const messageDiv = document.getElementById('message');
