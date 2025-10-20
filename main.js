@@ -22,7 +22,7 @@ function formatPhoneNumber(ddd, numero) {
 
 async function submitLead(nome, telefone) {
   try {
-    const response = await fetch('https://twvdyjgafeouxhjyuykr.supabase.co/rest/v1/Leads', {
+    const response = await fetch(SUPABASE_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
